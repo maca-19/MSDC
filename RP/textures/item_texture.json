@@ -1,0 +1,9 @@
+{
+	"resource_pack_name": "MSDC",
+	"texture_name": "atlas.items",
+	"texture_data": {
+		"msdc_psd_setting": {
+			"textures": "textures/items/psd_setting_item"
+		}
+	}
+}

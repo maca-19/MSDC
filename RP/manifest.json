@@ -1,0 +1,52 @@
+{
+	"format_version": 2,
+	"metadata": {
+		"authors": [
+			"minecart1019"
+		],
+		"generated_with": {
+			"bridge": [
+				"2.7.23"
+			],
+			"dash": [
+				"github:bridge-core/dash-compiler#8fa35c73292f6382747d0f411fca26431a6d2c8e"
+			]
+		}
+	},
+	"header": {
+		"name": "pack.name",
+		"description": "pack.description",
+		"min_engine_version": [
+			1,
+			20,
+			0
+		],
+		"uuid": "83d81187-3636-4c78-af58-0d246ed9043e",
+		"version": [
+			1,
+			0,
+			0
+		]
+	},
+	"modules": [
+		{
+			"type": "resources",
+			"uuid": "3beab7aa-a1fc-4657-b59b-bd2d93ec4d54",
+			"version": [
+				1,
+				0,
+				0
+			]
+		}
+	],
+	"dependencies": [
+		{
+			"uuid": "1652872a-1836-43ff-a812-94bd288ca23c",
+			"version": [
+				1,
+				0,
+				0
+			]
+		}
+	]
+}

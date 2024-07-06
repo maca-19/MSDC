@@ -1,0 +1,71 @@
+{
+	"format_version": 2,
+	"metadata": {
+		"authors": [
+			"minecart1019"
+		],
+		"generated_with": {
+			"bridge": [
+				"2.7.23"
+			],
+			"dash": [
+				"github:bridge-core/dash-compiler#8fa35c73292f6382747d0f411fca26431a6d2c8e"
+			]
+		}
+	},
+	"header": {
+		"name": "pack.name",
+		"description": "Helloworld2",
+		"min_engine_version": [
+			1,
+			20,
+			0
+		],
+		"uuid": "1652872a-1836-43ff-a812-94bd288ca23c",
+		"version": [
+			1,
+			0,
+			0
+		]
+	},
+	"modules": [
+		{
+			"type": "data",
+			"uuid": "b4c80c6b-feca-474f-8a7b-876b8eeffa6a",
+			"version": [
+				1,
+				0,
+				0
+			]
+		},
+		{
+			"description": "Test Scripting",
+			"type": "script",
+			"uuid": "080b518c-66a1-4e21-a817-b4b5e2eade04",
+			"version": [
+				1,
+				0,
+				0
+			],
+			"entry": "scripts/main.js"
+		}
+	],
+	"dependencies": [
+		{
+			"uuid": "83d81187-3636-4c78-af58-0d246ed9043e",
+			"version": [
+				1,
+				0,
+				0
+			]
+		},
+		{
+			"module_name": "@minecraft/server",
+			"version": "1.12.0-beta"
+		},
+		{
+			"module_name": "@minecraft/server-ui",
+			"version": "1.1.0"
+		}
+	]
+}
