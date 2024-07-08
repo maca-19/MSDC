@@ -19,7 +19,7 @@
 		"min_engine_version": [
 			1,
 			20,
-			0
+			50
 		],
 		"uuid": "1652872a-1836-43ff-a812-94bd288ca23c",
 		"version": [
@@ -41,6 +41,7 @@
 		{
 			"description": "Test Scripting",
 			"type": "script",
+			"language": "javascript",
 			"uuid": "080b518c-66a1-4e21-a817-b4b5e2eade04",
 			"version": [
 				1,
@@ -59,9 +60,13 @@
 				0
 			]
 		},
+		// {
+		// 	"module_name": "@minecraft/server",
+		// 	"version": "1.12.0-beta"
+		// },
 		{
 			"module_name": "@minecraft/server",
-			"version": "1.12.0-beta"
+			"version": "1.11.0"
 		},
 		{
 			"module_name": "@minecraft/server-ui",
