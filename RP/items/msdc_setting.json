@@ -3,8 +3,11 @@
 	"minecraft:item": {
 		"description": {
 			"identifier": "msdc:psd_setting",
-			"category": "nature"
+			"category": "nature",
+			"is_experimental": false
 		},
-		"components": {}
+		"components": {
+			"minecraft:icon": "msdc_psd_setting"
+		}
 	}
 }

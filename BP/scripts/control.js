@@ -1,7 +1,6 @@
 import { system, world, Dimension } from '@minecraft/server'
 import { MessageFormData, ActionFormData, ModalFormData } from '@minecraft/server-ui'
 const groupList = ['A', 'B', 'C', 'D', 'E', 'F', 'G', 'H', 'I', 'J', 'K', 'L', 'M', 'N', 'O', 'P', 'Q', 'R', 'S', 'T', 'U', 'V', 'W', 'X', 'Y', 'Z'];
-
 let lastSetting = [0, false, 1, 1]
 
 function settingPSD(player, psd) {
@@ -31,11 +30,30 @@ function checkModified(player, res, psd) {
             psd.triggerEvent(`msdc:B${res[3]}`)
             psd.addTag(`msdc_group${groupList[res[0]]}`)
             lastSetting = res
+            player.sendMessage('명령이 전달되었습니다')
         }
         else {
             settingPSD(player, psd)
         }
     })
+}
+function getGroup(psd, check = false) {
+    psd.getComponent("minecraft:type_family").hasTypeFamily('msdc_psd')
+    group_return = []
+    if (psd.getComponent("minecraft:type_family").hasTypeFamily('msdc_psd')) {
+        for (i of psd.getComponent("minecraft:type_family").getTypeFamily()) {
+            group_return.push(i)
+        }
+        if (check) return group_return.includes(check)
+        else return group_return
+    }
+}
+function openAndClose(player, funcID = 0) {
+    let psd = world.getDimension(player.dimension.id).getEntities({ location: player.location, closest: 1, })[0]
+    switch (funcID) {
+        case 1:
+
+    }
 }
 
 
@@ -43,7 +61,7 @@ world.afterEvents.entitySpawn.subscribe((data) => {
     if (data.cause == 'Loaded') return 0;
     else {
         let entity = data.entity;
-        let player = world.getDimension(entity.dimension.id).getPlayers({ location: entity.getHeadLocation(), closest: 1, })[0]
+        let player = world.getDimension(entity.dimension.id).getPlayers({ location: entity.location, closest: 1, })[0]
         if (entity.typeId.slice(0, 9) == 'msdc:msdc') {
             let yRot = Math.round(player.getRotation().y / 90) * 90 + 180;
             entity.setRotation({ x: 0, y: yRot })
@@ -51,7 +69,7 @@ world.afterEvents.entitySpawn.subscribe((data) => {
             entity.setRotation({ x: 0, y: yRot })
         }
         else if (entity.typeId == 'msdc:setting') {
-            let psd = world.getDimension(entity.dimension.id).getEntities({ location: entity.getHeadLocation(), closest: 1, })[0]
+            let psd = world.getDimension(entity.dimension.id).getEntities({ location: entity.location, closest: 1, })[0]
             settingPSD(player, psd)
         }
     }

@@ -6,7 +6,7 @@
 		],
 		"generated_with": {
 			"bridge": [
-				"2.7.23"
+				"2.7.24"
 			],
 			"dash": [
 				"github:bridge-core/dash-compiler#8fa35c73292f6382747d0f411fca26431a6d2c8e"
@@ -15,7 +15,7 @@
 	},
 	"header": {
 		"name": "pack.name",
-		"description": "Helloworld2",
+		"description": "pack.description",
 		"min_engine_version": [
 			1,
 			20,
@@ -60,10 +60,6 @@
 				0
 			]
 		},
-		// {
-		// 	"module_name": "@minecraft/server",
-		// 	"version": "1.12.0-beta"
-		// },
 		{
 			"module_name": "@minecraft/server",
 			"version": "1.11.0"

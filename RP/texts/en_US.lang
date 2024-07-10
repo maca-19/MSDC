@@ -1,5 +1,5 @@
 pack.name=MSDC RP
-pack.description=MSDC(Maca Screen Door Controller)
+pack.description=MSDC(Maca Screen Door Controller) v.pre   made by §b@maca19   
 item.msdc:psd_setting.name=psd_setting
 item.spawn_egg.entity.msdc:psd1_test1.name=Spawn psd1_test1
 entity.msdc:psd1_test1.name=psd1_test1
