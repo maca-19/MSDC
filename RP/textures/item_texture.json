@@ -4,6 +4,9 @@
 	"texture_data": {
 		"msdc_psd_setting": {
 			"textures": "textures/items/psd_setting_item"
+		},
+		"msdc_msdc_setting": {
+			"textures": "textures/items/msdc_setting_item"
 		}
 	}
 }
