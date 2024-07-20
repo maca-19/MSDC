@@ -1,0 +1,10 @@
+{
+	"format_version": "1.10.0",
+	"minecraft:item": {
+		"description": {
+			"identifier": "msdc:psd_control",
+			"category": "nature"
+		},
+		"components": {}
+	}
+}

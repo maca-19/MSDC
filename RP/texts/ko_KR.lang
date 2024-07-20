@@ -1,2 +1,15 @@
 pack.name=MSDC RP
 pack.description=MSDC(Maca Screen Door Controller) 버전:pre   제작:§b@maca19   
+
+
+item.msdc:msdc_setting.name=빠른실행 편집
+item.msdc:psd_setting.name=PSD설정 지정
+item.msdc:psd_control.name=PSD 제어
+item.msdc:function1.name=빠른실행1
+item.msdc:function2.name=빠른실행2
+item.msdc:function3.name=빠른실행3
+item.msdc:function4.name=빠른실행4
+item.msdc:function5.name=빠른실행5
+item.msdc:function6.name=빠른실행6
+item.msdc:function7.name=빠른실행7
+item.msdc:function8.name=빠른실행8

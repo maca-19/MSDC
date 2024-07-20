@@ -3,7 +3,15 @@
 	"metadata": {
 		"authors": [
 			"minecart1019"
-		]
+		],
+		"generated_with": {
+			"bridge": [
+				"2.7.29"
+			],
+			"dash": [
+				"0.11.6"
+			]
+		}
 	},
 	"header": {
 		"name": "pack.name",

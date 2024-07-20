@@ -1,3 +1,5 @@
 pack.name=MSDC BP
 pack.description=MSDC(Maca Screen Door Controller) v.pre   made by §b@maca19   
 ui.settingPSD=PSD Setting
+
+## msdc.checkModified=변경사항 확인

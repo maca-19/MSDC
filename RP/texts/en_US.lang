@@ -3,3 +3,16 @@ pack.description=MSDC(Maca Screen Door Controller) v.pre   made by §b@maca19
 item.msdc:psd_setting.name=psd_setting
 item.spawn_egg.entity.msdc:psd1_test1.name=Spawn psd1_test1
 entity.msdc:psd1_test1.name=psd1_test1
+
+
+item.msdc:msdc_setting.name=edit Function
+item.msdc:psd_setting.name=specify PSD settings
+item.msdc:psd_control.name=control PSD
+item.msdc:function1.name=run function1
+item.msdc:function2.name=run function2
+item.msdc:function3.name=run function3
+item.msdc:function4.name=run function4
+item.msdc:function5.name=run function5
+item.msdc:function6.name=run function6
+item.msdc:function7.name=run function7
+item.msdc:function8.name=run function8

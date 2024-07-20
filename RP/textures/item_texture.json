@@ -3,10 +3,37 @@
 	"texture_name": "atlas.items",
 	"texture_data": {
 		"msdc_psd_setting": {
-			"textures": "textures/items/psd_setting_item"
+			"textures": "textures/items/msdc_psd_setting_item"
 		},
-		"msdc_msdc_setting": {
-			"textures": "textures/items/msdc_setting_item"
+		"msdc_psd_control": {
+			"textures": "textures/items/msdc_psd_control_item"
+		},
+		"msdc_function_setting": {
+			"textures": "textures/items/msdc_function_setting_item"
+		},
+		"msdc_function_run1": {
+			"textures": "textures/items/msdc_function_run_item 1"
+		},
+		"msdc_function_run2": {
+			"textures": "textures/items/msdc_function_run_item 2"
+		},
+		"msdc_function_run3": {
+			"textures": "textures/items/msdc_function_run_item 3"
+		},
+		"msdc_function_run4": {
+			"textures": "textures/items/msdc_function_run_item 4"
+		},
+		"msdc_function_run5": {
+			"textures": "textures/items/msdc_function_run_item 5"
+		},
+		"msdc_function_run6": {
+			"textures": "textures/items/msdc_function_run_item 6"
+		},
+		"msdc_function_run7": {
+			"textures": "textures/items/msdc_function_run_item 7"
+		},
+		"msdc_function_run8": {
+			"textures": "textures/items/msdc_function_run_item 8"
 		}
 	}
 }
