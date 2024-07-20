@@ -1,5 +1,5 @@
 pack.name=MSDC RP
-pack.description=MSDC(Maca Screen Door Controller) 버전:pre   제작:§b@maca19   
+pack.description=MSDC(Maca Screen Door Controller) 버전:1.0.0   제작:§b@maca19   
 
 
 item.msdc:msdc_setting.name=빠른실행 편집
