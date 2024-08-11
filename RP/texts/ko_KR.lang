@@ -1,9 +1,9 @@
 pack.name=MSDC RP
-pack.description=MSDC(Maca Screen Door Controller) 버전:1.0.0   제작:§b@maca19   
+pack.description=MSDC(Maca Screen Door Controller) 버전:1.0.1   제작:§b@maca-19   
 
 
 item.msdc:msdc_setting.name=빠른실행 편집
-item.msdc:psd_setting.name=PSD설정 지정
+item.msdc:psd_setting.name=PSD설정모드
 item.msdc:psd_control.name=PSD 제어
 item.msdc:function1.name=빠른실행1
 item.msdc:function2.name=빠른실행2
@@ -13,3 +13,41 @@ item.msdc:function5.name=빠른실행5
 item.msdc:function6.name=빠른실행6
 item.msdc:function7.name=빠른실행7
 item.msdc:function8.name=빠른실행8
+
+script.form.settingPSD.title=PSD 설정
+script.form.settingPSD.dropdown1=그룹 선택
+script.form.settingPSD.toggle1=선택된 그룹 §c지정 해제§r / §a지정§r
+script.form.settingPSD.slider1=차량번호
+script.form.settingPSD.slider2=도어번호
+
+script.form.checkModified.title=변경사항 확인
+script.form.checkModified.body=변경사항 > 
+script.form.checkModified.button1=아니요, 다시 설정하겠습니다.
+script.form.checkModified.button2=네, 변경사항을 저장합니다.
+
+script.form.selectFunct.title=빠른실행 편집
+script.form.selectFunct.body=편집 할 빠른실행의 번호를 선택하세요.
+script.form.selectFunct.function=빠른실행
+
+script.form.editFunct.title=빠른실행 편집
+script.form.editFunct.textField1=그룹
+script.form.editFunct.textField1_hint=그룹을 띄어쓰기 구분으로 입력하세요.
+script.form.editFunct.slider1=최대 PSD 개수
+script.form.editFunct.dropdown1=실행 할 기능
+
+script.form.editFunct.errorForm.body=그룹은 영어 알파벳으로만, 띄어쓰기로 구분하여 입력해야 합니다\n 예시: 'a' , 'a B R'\n  > 아무거나 누르세요
+script.form.editFunct.message_ok_1=§a빠른실행1 이 설정되었습니다
+script.form.editFunct.message_ok_2=§a빠른실행2 가 설정되었습니다
+script.form.editFunct.message_ok_3=§a빠른실행3 이 설정되었습니다
+script.form.editFunct.message_ok_4=§a빠른실행4 가 설정되었습니다
+script.form.editFunct.message_ok_5=§a빠른실행5 가 설정되었습니다
+script.form.editFunct.message_ok_6=§a빠른실행6 이 설정되었습니다
+script.form.editFunct.message_ok_7=§a빠른실행7 이 설정되었습니다
+script.form.editFunct.message_ok_8=§a빠른실행8 이 설정되었습니다
+script.form.editFunct.message_nochanges=§e아무것도 변경되지 않았습니다 > 사유:변경사항이 기존과 동일함
+script.form.editFunct.message_error=§c변경사항이 저장되지 않음
+
+script.message.error.function_undefined=§c에러:function_undefined(빠른실행이 지정되어 있지 않음.)
+script.message.error.not_match_regular_expression=§c에러:not_match_regular_expression(그룹을 규칙에 맞게 작성하세요.)
+
+script.check_lang=kr

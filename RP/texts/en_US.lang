@@ -1,12 +1,9 @@
 pack.name=MSDC RP
-pack.description=MSDC(Maca Screen Door Controller) v.1.0.0   made by §b@maca19   
-item.msdc:psd_setting.name=psd_setting
-item.spawn_egg.entity.msdc:psd1_test1.name=Spawn psd1_test1
-entity.msdc:psd1_test1.name=psd1_test1
+pack.description=MSDC(Maca Screen Door Controller) v.1.0.1   made by §b@maca-19
 
 
 item.msdc:msdc_setting.name=edit Function
-item.msdc:psd_setting.name=specify PSD settings
+item.msdc:psd_setting.name=PSD settings mode
 item.msdc:psd_control.name=control PSD
 item.msdc:function1.name=run function1
 item.msdc:function2.name=run function2
@@ -16,3 +13,42 @@ item.msdc:function5.name=run function5
 item.msdc:function6.name=run function6
 item.msdc:function7.name=run function7
 item.msdc:function8.name=run function8
+
+
+script.form.settingPSD.title=PSD Settings
+script.form.settingPSD.dropdown1=Select Group
+script.form.settingPSD.toggle1=Group §cUnassign§r / §aAssign§r Selected
+script.form.settingPSD.slider1=Vehicle Number
+script.form.settingPSD.slider2=Door Number
+
+script.form.checkModified.title=Check Changes
+script.form.checkModified.body=Changes > 
+script.form.checkModified.button1=No, I will configure again.
+script.form.checkModified.button2=Yes, save the changes.
+
+script.form.selectFunct.title=Edit Quick Action
+script.form.selectFunct.body=Select the number of the Quick Action to edit.
+script.form.selectFunct.function=Quick Action
+
+script.form.editFunct.title=Edit Quick Action
+script.form.editFunct.textField1=Group
+script.form.editFunct.textField1_hint=Enter the group names separated by spaces.
+script.form.editFunct.slider1=Maximum Number of PSDs
+script.form.editFunct.dropdown1=Function to Execute
+
+script.form.editFunct.errorForm.body=Group names must be in English alphabets, separated by spaces.\n Example: 'a' , 'a B R'\n  > Press any button to continue
+script.form.editFunct.message_ok_1=§aQuick Action 1 has been set.
+script.form.editFunct.message_ok_2=§aQuick Action 2 has been set.
+script.form.editFunct.message_ok_3=§aQuick Action 3 has been set.
+script.form.editFunct.message_ok_4=§aQuick Action 4 has been set.
+script.form.editFunct.message_ok_5=§aQuick Action 5 has been set.
+script.form.editFunct.message_ok_6=§aQuick Action 6 has been set.
+script.form.editFunct.message_ok_7=§aQuick Action 7 has been set.
+script.form.editFunct.message_ok_8=§aQuick Action 8 has been set.
+script.form.editFunct.message_nochanges=§eNothing has changed > Reason: No differences from previous settings
+script.form.editFunct.message_error=§cChanges were not saved
+
+script.message.error.function_undefined=§cError:function_undefined(Quick Action is not assigned.)
+script.message.error.not_match_regular_expression=§cError:not_match_regular_expression(Please write the group names according to the rules.)
+
+script.check_lang=en
